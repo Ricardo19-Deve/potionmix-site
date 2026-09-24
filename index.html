@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Potion Mix — Pour, mix, burst.</title>
+<meta name="description" content="Potion Mix is a calm colour-sorting puzzle for iPhone where primaries fuse into new colours. Pour potions between glass vials, mix red and yellow into orange, burst every vial you fill.">
+<style>
+  body { margin: 0; font-family: system-ui, -apple-system, sans-serif; background: radial-gradient(circle at 50% 30%, #1c4a4a, #0f2e2e 70%); color: #f3e9d2; min-height: 100vh; }
+  main { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; text-align: center; }
+  h1 { font-family: Georgia, serif; font-size: 56px; margin: 12px 0 8px; letter-spacing: 1px; }
+  .tag { color: #c9bfa8; font-size: 22px; margin: 0 0 32px; }
+  .vials { display: flex; justify-content: center; gap: 18px; margin: 24px 0 36px; }
+  .vial { width: 56px; height: 200px; border: 4px solid #bfefef; border-radius: 28px; background: #1c4a4a; overflow: hidden; display: flex; flex-direction: column-reverse; }
+  .unit { height: 25%; }
+  .red { background: #e5484d; } .yellow { background: #f5c518; } .orange { background: #f28c28; }
+  .green { background: #3fa34d; } .blue { background: #3b82f6; } .purple { background: #8e4ec6; }
+  p { line-height: 1.6; font-size: 18px; color: #f3e9d2; }
+  .cta { display: inline-block; margin-top: 24px; padding: 16px 32px; border-radius: 32px; background: #e8a33d; color: #101c1e; font-weight: 700; text-decoration: none; font-size: 18px; }
+  footer { margin-top: 56px; color: #7fa3a3; font-size: 14px; }
+  footer a { color: #bfefef; }
+</style>
+</head>
+<body>
+<main>
+  <div class="vials">
+    <div class="vial"><div class="unit red"></div><div class="unit red"></div><div class="unit red"></div></div>
+    <div class="vial"><div class="unit orange"></div><div class="unit orange"></div><div class="unit orange"></div><div class="unit orange"></div></div>
+    <div class="vial"><div class="unit yellow"></div><div class="unit yellow"></div></div>
+    <div class="vial"><div class="unit blue"></div><div class="unit green"></div></div>
+    <div class="vial"><div class="unit purple"></div><div class="unit purple"></div><div class="unit red"></div></div>
+  </div>
+  <h1>Potion Mix</h1>
+  <p class="tag">Pour, mix, burst.</p>
+  <p>A colour-sorting puzzle where the colours react. Pour a primary onto a different primary and one drop fuses into a new colour. Fill a vial with a single colour and it bursts. 150 levels, a Daily Brew every day, colour-blind symbols, free unlimited undo.</p>
+  <a class="cta" href="#" id="store">Coming soon to the App Store</a>
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · Ricardo Pinheiro · <a href="mailto:ricardopacheco.pinheiro@hotmail.com">Contact</a>
+  </footer>
+</main>
+</body>
+</html>
